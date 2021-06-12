@@ -1,0 +1,124 @@
+@media (max-width: 1000px){
+  .wrap {
+    width: 100%;
+  }
+  header {
+    width: 100%;
+  }
+  .contents {
+    width: 100%;
+  }
+
+  body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .drawer-open {
+    right: 40px;
+  }
+  /* アイコンがクリックされたらメニューを表示 */
+#drawer-check:checked ~ .drawer-content {
+  left: 50%;/* メニューを画面に入れる */
+}
+/* メニューのデザイン*/
+.drawer-content {
+  width: 50%;
+}
+
+  .first {
+    background-image: url(img/kv-img2.png);
+  }
+  .company {
+    z-index: 100;
+    padding-top: 200px;
+    margin-right: -102px;
+    display: flex;
+    justify-content: flex-end;
+  }
+   .copy-size p {
+    font-size: 20px;
+  }
+
+  .copy-size h1 {
+    font-size: 60px;
+  }
+/*about*/
+.about-wrapper {
+  width: 100%;
+}
+  .about-img {
+    width: 100%;
+    padding: 112px 0 112px 0;
+  }
+  .about {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  /*コンテンツ*/
+  .contents-size {
+    width: 90%;
+  }
+  .photos {
+    display: block;
+    margin-top: 104px;
+    width: 90%;
+  }
+  .photos img {
+    width: 95%;
+  }
+ .culture h2 {
+   margin-top: 104px;
+ }
+ .btn {
+   margin-bottom: 64px;
+ }
+
+ /*latest topics*/
+.latest-size {
+  width: 90%;
+  margin: 0 auto;
+  vertical-align: middle;
+}
+.latest-size h2 {
+  margin-top: 80px;
+}
+
+ .topics {
+   width: 90%;
+   display: block;
+   margin: 0 24px;
+ }
+ .topic-btn {
+ display: block;
+ width: 80%;
+ box-sizing: border-box;
+}
+
+/*contact*/
+.contact-wrapper {
+  height: auto;
+}
+.contact-size {
+  width: 90%;
+  margin: 0 auto;
+}
+.recruit-order {
+  display: block;
+}
+.recruit p {
+  margin-top: 0;
+  margin-bottom: 152px;
+}
+.contact-size h2 {
+  margin: 56px 0;
+  padding: 0;
+  height: auto;
+}
+.contact-btn {
+  margin-bottom: 104px;
+}
+}
