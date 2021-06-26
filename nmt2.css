@@ -77,27 +77,31 @@
    margin-bottom: 64px;
  }
 
- /*latest topics*/
+  /*latest topics*/
+ .latest-topics {
+   height: 70%;
+ }
 .latest-size {
   width: 90%;
   margin: 0 auto;
   vertical-align: middle;
-}
-.latest-size h2 {
-  margin-top: 80px;
+  padding: 0;
 }
 
  .topics {
    width: 90%;
    display: block;
-   margin: 0 24px;
+   margin: 96px 24px;
  }
  .topic-btn {
  display: block;
  width: 80%;
  box-sizing: border-box;
 }
-
+.topic-btn a {
+  margin-top: 40px;
+}
+  
 /*contact*/
 .contact-wrapper {
   height: auto;
