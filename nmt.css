@@ -290,6 +290,7 @@ body.nonscroll {
 /*コンテンツ*/
 .contents-wrapper {
   position: relative;
+  padding-bottom: 96px;
 }
 
 .contents-wrapper::after {
@@ -338,7 +339,7 @@ body.nonscroll {
   height: 400px;
   width: 80%;
   margin: 0 auto;
-  margin-top: 144px;
+  padding-top: 80px;
 }
 
 .latest-size h2 {
