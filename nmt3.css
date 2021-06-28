@@ -4,7 +4,7 @@
   }
   .link-btn {
     padding: 16px 40px;
-    font-size: 13px;
+    font-size: 0.8rem;
   }
   header {
     width: 100%;
@@ -28,10 +28,10 @@
     margin-right: -64px;
   }
    .copy-size p {
-    font-size: 15px;
+    font-size: 1rem;
   }
   .copy-size h1 {
-    font-size: 40px;
+    font-size: 3rem;
   }
   .logo {
     width: 50%;
@@ -39,11 +39,17 @@
   }
 /* アイコンがクリックされたらメニューを表示 */
 #drawer-check:checked ~ .drawer-content {
-  left: 40%;/* メニューを画面に入れる */
+  left: 20%;/* メニューを画面に入れる */
 }
 /* メニューのデザイン*/
 .drawer-content {
-  width: 60%;
+  width: 80%;
+}
+.drawer-item {
+  font-size: 1.5rem;
+}
+ul {
+  padding-inline-start: 0px;
 }
   .menu {
     margin-right: 32px;
@@ -53,10 +59,10 @@
     right: 32;
 }
   .about h2,.photos h2,.latest-size h2,.recruit h2 {
-    font-size: 25px;
+    font-size: 1.5rem;
   }
   .about p,.photos p,.news,.recruit p {
-    font-size: 15px;
+    font-size: 0.9rem;
   }
 
   /*about*/
