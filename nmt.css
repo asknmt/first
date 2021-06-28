@@ -6,8 +6,6 @@ body {
   width: 100%;
   padding: 0;
   margin: 0;
-  font-family: "ヒラギノ角ゴ ProN",Arial,sans-serif,"FOT-筑紫B丸ゴシック Std","貂明朝テキスト","DNP 秀英丸ゴシック Std","游ゴシック体";
-}
 }
 main {
   height: 100%;
@@ -144,7 +142,7 @@ header {
 }
 
 .drawer-item {
-  font-size: 30px;
+  font-size: 2rem;
   padding-bottom: 40px;
 }
 
@@ -191,6 +189,9 @@ position: fixed;
 top: 0px;
 right: 0px;
 }
+ul {
+  padding-inline-start: 0px;
+}
 
 body.nonscroll {
   overflow: hidden;
@@ -213,17 +214,17 @@ body.nonscroll {
   color: #fff;
   display: block;
   margin-bottom: 16px;
+  font-size: 1.2rem;
 }
 
 .copy-size p {
   padding-bottom: 16px;
-  font-size: 24px;
 }
 
 .design {
   font-family: 'arial black';
   margin-top: 0;
-  font-size: 80px;
+  font-size: 4rem;
 }
 
 .company {
@@ -235,7 +236,7 @@ body.nonscroll {
 }
 
 .company h1 {
-  font-size: 72px;
+  font-size: 4.5rem;
 }
 
 /*about*/
@@ -269,7 +270,7 @@ body.nonscroll {
 
 .about p {
   margin-top: 32px;
-  font-size: 15px;
+  font-size: 1rem;
 }
 
 .about a {
@@ -281,7 +282,7 @@ body.nonscroll {
   color: #fff;
   background-color: #222;
   padding: 24px 56px;
-  font-size: 15px;
+  font-size: 0.8rem;
 }
 .btn {
   margin: 32px 0 32px 0;
@@ -323,10 +324,11 @@ body.nonscroll {
   font-family: 'arial black';
   letter-spacing: 2px;
   left: 0;
-  font-size: 32px;
+  font-size: 2.1rem;
 }
 .culture p,.works p {
   margin: 24px 0 24px 0;
+  font-size: 1rem;
 }
 /*LATEST TOPICS*/
 .latest-topics {
@@ -358,7 +360,7 @@ body.nonscroll {
 }
 
 .date {
-  font-size: 10px;
+  font-size: 0.2rem;
   color:rgb(161, 161, 161)
 }
 
@@ -366,6 +368,7 @@ body.nonscroll {
   display: block;
   border-bottom: solid 1px  rgba(136, 134, 134, 0.76);
   margin-bottom: 56px;
+  font-size: 1rem;
 }
 
 /*コンタクト*/
@@ -396,7 +399,7 @@ body.nonscroll {
 
 .recruit p {
   width: 80%;
-  font-size: 15px;
+  font-size: 1rem;
   line-height: 32px;
   margin-top: 0;
 }
@@ -421,6 +424,6 @@ footer p {
   line-height: 56px;
   color: #fff;
   text-align: center;
-  font-size: 10px;
+  font-size: 0.2rem;
   margin: 0;
 }
