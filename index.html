@@ -1,157 +1,272 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
+
+<head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="nmt.css">
-  <link rel="stylesheet" href="nmt2.css">
-  <link rel="stylesheet" href="nmt3.css">
-  <title>DIGSMILE INC.</title>
+  <title>沼田明日香のポートフォリオ | 東京・大阪・兵庫で活動するWebデザイナー</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="port2.css">
+  <link rel="stylesheet" href="port3.css">
+  <link rel="stylesheet" href="reset.css">
   <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet">
 </head>
+
 <body>
-  <!-- ヘッダー -->
-<header>
-  <h1 class="site-title">
-    <a href="./nmt.html">
-      <img src="img/site-logo.png" class="logo" alt="ロゴ">
-    </a>
-  </h1>
+  <main>
+    <header class="site-header">
+      <a href="#" class="header-logo">
+        <img src="img/logo.png" alt="ロゴ">
+      </a>
+    </header>
+    <section class="top container">
+      <div class="container">
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
 
-  <!-- ハンバーガーメニュー部分 -->
-<div class="drawer" id="burger">
+        <div class="top_height">
+          <div class="flex">
+            <nav class="globalMenuSp">
+              <ul id="humber" class="link_list">
+                <li><a href="#prof" style="text-decoration:none;">Profile</a></li>
+                <li><a href="#skills" style="text-decoration:none;">Skills</a></li>
+                <li><a href="#work" style="text-decoration:none;">Works</a></li>
+                <li><a href="#adress" style="text-decoration:none;">Contact</a></li>
+              </ul>
+            </nav>
+            <div class="flex jc_center">
+              <div class="top_title">
+                <h2>ASUKA<br>NUMATA</h2>
+              </div>
+              <div class="top_img">
+                <img src="img/top_img.jpg">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="profile" id="prof">
+      <div class="container">
+        <h3 class="h3_title"><span>PROFILE</span></h3>
+        <div class="prof-size">
+          <div class="profile-contents">
+            <div class="prof_img">
+              <img src="img/IMG_2548.png" alt="プロフィール画像">
+            </div>
+            <div class="prof-sentence">
+              <p class="prof-p1">『新しい価値』が生まれる。
+                『輪』ができる。
+                心に響く繋がりを生み出すお手伝いができれば、と思っています。
+              </p>
+              <div class="prof-p2">
+                <h4>沼田明日香</h4>
+                <p>大学卒業後、総合病院にて外来クラークとして勤務。
+                  その後、美容クリニックのサイト運営に携わる。
+                  保守・運営、デザインからコーディングまで経験。
+                  <span class="blue font_l">医療業界に縛られず、幅広い視野からご提案をしていきたい</span>、<br>という思いからフリーランスへ。
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--profile-contents-->
+        </div>
+        <!--prof-size-->
+      </div>
+    </section>
+    <section class="skill" id="skills">
+      <div class="container">
+        <h3 class="h3_title"><span>SKILL</span></h3>
+        <div class="skill-size">
+          <div class="skill-flex">
+            <div class="cording">
+              <img src="img/cording.png" alt="コーディングのイラスト">
+              <div class="skill-text">
+                <h3>コーディング</h3>
+                <h4>HTML/CSS/jQuery/WordPress</h4>
+                <p>サイトの目的を忘れず、ユーザー視点を持ってサイト設計を行います。</p>
+                <!-- <p>HTML…SEOを意識した構築を心がけます。<br>
+                  CSS…クライアント様のイメージに合ったデザインの実装に努めます。<br>
+                  jQuery…デザインによっては、動きをつけることも可能です。<br>
+                  WordPress…初期設定からカスタムフィールドの設定・出力まで対応可能です。</p> -->
+              </div>
+              <!--skill-text-->
+            </div>
+            <!--cording-->
+            <div class="design">
+              <img src="img/design.png" alt="デザインのイラスト">
+              <div class="skill-text">
+                <h3>デザイン</h3>
+                <h4>Photoshop/Illustrator</h4>
+                <p>ユーザーが使いやすく、心に響くデザインを心がけます。</p>
+              </div>
+              <!--skill-text-->
+            </div>
+            <!--design-->
+          </div>
+          <!--skill-flex-->
+        </div>
+        <!--skill-size-->
+      </div>
+    </section>
+    <section class="works" id="work">
+      <div class="container">
+        <h3 class="h3_title"><span>WORKS</span></h3>
+        <div class="works-flex">
+          <div class="screen">
+            <a href="https://asknmt.github.io/crista2/" style="text-decoration: none;">
+              <img src="img/site1.png" class="screen-img" alt="スクリーンショット">
+            </a>
+            <p>クリスタのデザインカンプより作成</p>
+          </div>
+          <!--screen-->
+          <div class="screen">
+            <a href="https://asknmt.github.io/crista1/" style="text-decoration: none;">
+              <img src="img/site2.png" class="screen-img" alt="スクリーンショット">
+            </a>
+            <p>クリスタのデザインカンプより作成</p>
+          </div>
+          <div class="screen">
+            <a href="https://asknmt.github.io/cosmetic-page/" style="text-decoration: none;">
+              <img src="img/site7.png" class="screen-img" alt="スクリーンショット">
+            </a>
+            <p>架空ブランドcosmeticのランディングページ</p>
+          </div>
+          <div class="screen">
+            <a href="https://asknmt.github.io/horse-page/" style="text-decoration: none;">
+              <img src="img/site3.png" class="screen-img" alt="スクリーンショット">
+            </a>
+            <p>御猟野乃杜牧場のリニューアルHP(架空)</p>
+          </div>
+          <div class="screen">
+            <a href="https://asknmt.github.io/dounut-s-page/" style="text-decoration: none;">
+              <img src="img/site4.png" class="screen-img" alt="スクリーンショット">
+            </a>
+            <p>Dounut's PopのHP(実案件)</p>
+          </div>
+          <div class="screen">
+            <a href="#" style="text-decoration: none;">
+              <img src="img/site5.png" class="screen-img" alt="スクリーンショット">
+            </a>
+            <p>自身のポートフォリオサイト</p>
+          </div>
+          <div class="screen logo-screen">
+            <a href="#" style="text-decoration: none;">
+              <img src="img/logo-img.png" class=" screen-img logo-img" alt="ロゴ">
+            </a>
+            <p>自身のポートフォリオサイトのロゴ</p>
+          </div>
 
-  <!-- ハンバーガーメニューの表示・非表示を切り替えるチェックボックス -->
-  <input type="checkbox" id="drawer-check" class="drawer-hidden" >
+        </div>
+      </div>
+    </section>
+  </main>
 
-  <!-- ハンバーガーアイコン -->
-  <label for="drawer-check" class="drawer-open" id="click">
-    <span></span>
-    <p class="menu color" id="icon" >menu</p>
-  </label>
+  <footer>
+    <div class="contact" id="adress">
+      <h3 class="h3_title">CONTACT</h3>
+      <div class="contact-text">
+        <!-- <h4>ご質問等あれば下記メールアドレスへご連絡ください。</h4> -->
+        <!-- <p>nmtask79@gmail.com</p> -->
+        <!-- <form method="POST" action="mailto:foo@xxx.yyy.zzz" class="m_0_auto wdt60">
+          <div class="form_text">
+            <label for="redlabel" class="m_r_20">
+              <input type="checkbox" name="color" value="red" id="redlabel">
+              ご相談
+            </label>
+            <label for="bluelabel" class="m_r_20">
+              <input type="checkbox" name="color" value="blue" id="bluelabel">
+              お見積り
+            </label>
+            <label for="yellowlabel" class="m_r_20">
+              <input type="checkbox" name="color" value="yellow" id="yellowlabel">
+              お問合せ
+            </label>
+            <label for="greenlabel" class="m_r_20">
+              <input type="checkbox" name="color" value="yellow" id="greenlabel">
+              その他
+            </label>
+          </div>
+          <div class="form_text">
+            <div class="wdt40 form_blue m_r_20">
+              <label for="namelabel" class="m_r_20 wdt200 left">名前</label>
+            </div>
+            <div class="flex_1 left">
+              <input type="text" name="name" id="namelabel" placeholder="例）鈴木　太郎" class="text_input">
+            </div>
+          </div>
+          <div class="form_text">
+            <div class="wdt40 form_blue m_r_20">
+              <label for="maillabel" class="m_r_20 wdt200 left">メールアドレス</label>
+            </div>
+            <div class="flex_1 left">
+              <input class="text_input" type="email" name="email" id="maillabel" placeholder="○○○.jp">
+            </div>
+          </div>
+          <div class="form_text">
+            <div class="wdt40 form_blue m_r_20">
+              <label for="tellabel" class="m_r_20 wdt200 left">お電話番号</label>
+            </div>
+            <div class="flex_1 left">
+              <input class="text_input" type="tell" name="email" id="tellabel" placeholder="○○○.jp">
+            </div>
+          </div>
+          <div class="form_text">
+            <div class="wdt40 form_blue m_r_20">
+              <label for="citylabel" class="m_r_20 wdt200 left">都道府県</label>
+            </div>
+            <div class="flex_1 left">
+              <input class="text_input" type="city" name="email" id="citylabel" placeholder="○○○.jp">
+            </div>
+          </div>
+          <div class="form_text">
+            <div class="wdt40 form_blue m_r_20">
+              <label for="ikenlabel" class="m_r_20 wdt200 left">本文</label>
+            </div>
+            <div class="flex_1 left">
+              <textarea id="iken" class="textarea_input" rows="10" cols="40"></textarea>
+            </div>
+          </div>
+          <div class="center">
+            <input type="submit" value="送信する" class="form_blue submit_btn">
+          </div>
+        </form> -->
+        <form>
+          <table>
+            <tr>
+              <th class="hissu"><label>お名前</label></th>
+              <td><input type="text"></td>
+            </tr>
+            <tr>
+              <th class="ninni"><label>電話番号</label></th>
+              <td><input type="text"><br><span class="attention">※連絡のつく番号をお願いします</span></td>
+            </tr>
+            <tr>
+              <th class="ninni"><label>年齢</label></th>
+              <td><input type="text" class="smallinput">歳</td>
+            </tr>
+            <tr>
+              <th class="hissu"><label>内容</label></th>
+              <td><textarea></textarea></td>
+            </tr>
+          </table>
+          <div class="buttonwrap">
+            <input type="button" value="戻る">
+            <input type="submit" value="送信">
+          </div>
+        </form>
 
-  <!-- メニュー -->
-  <nav class="drawer-content">
-    <ul class="drawer-list" id="humber">
-      <li>
-        <img src="img/simbol-logo.png" ait="ロゴ">
-      </li>
-      <li class="drawer-item">
-        <a href="#about-us" style="text-decoration:none;">About</a>
-      </li><!-- /.drawer-item -->
-      <li class="drawer-item">
-        <a href="#contents" style="text-decoration:none;">Contents</a>
-      </li><!-- /.drawer-item -->
-      <li class="drawer-item">
-        <a href="#topics"  style="text-decoration:none;">Topics</a>
-      </li><!-- /.drawer-item -->
-      <li class="drawer-item">
-        <a href="#contact" style="text-decoration:none;">Contact</a>
-      </li><!-- /.drawer-item -->
-    </ul><!-- /.drawer-list -->
-  </nav>
-  <span class="burger-musk" id="musk"></span>
-</div><!--drawer-->
-
-</header>
-
-<div class="contents">
-<div class="first">
-  <div class="company">
-    <div class="copy-size">
-      <p class="copy">デザインで人を笑顔にする会社<br>DIGSMILE INC.</p>
-       <h1 class="copy design">DESIGN<br>FOR<br>SMILE</h1>
+      </div>
     </div>
-  </div>
-</div><!--first-->
-</div><!--contents-->
-
-<section class="about-wrapper" id="about-us">
-  <div class="about-img">
-   <div class="about">
-     <h2>ABOUT US</h2>
-     <p>DIGSMILEは、デザインで人を笑顔にする会社。<br>
-    なんでもない日常に少しのワクワクと遊び心を提供します。笑顔には世界を変える力がある、デザインには人を幸せにする力がある。毎日に幸せを感じて生きていきたい。<br>
-    DIGSMILEの社名にはそんな想いが込められています。
-    </p>
-    <div class="btn">
-      <a href="https://asknmt.github.io/first_link1/" class="link-btn" style="text-decoration:none;">view more</a>
-    </div>
-   </div><!--about-->
-  </div><!--about-img-->
-</section> <!--about-wrapper--> 
-
-<section class="contents-wrapper" id="contents">
-  <div class="photos">
-  <div class="works">
-    <h2>WORKS</h2>
-    <img src="img/works-img.png">
-    <p>DIGSMILEの制作実績を紹介します。</p>
-    <div class="btn">
-      <a href="#" style="text-decoration:none;" class="link-btn">READ MORE</a>
-    </div><!--btn-->
-  </div><!--works-->
-  <div class="culture">
-    <h2>CULTURE</h2>
-    <img src="img/culture-img.png">
-    <p>DIGSMILEの社内文化について紹介します。</p>
-    <div class="btn">
-      <a href="#" style="text-decoration:none;" class="link-btn">READ MORE</a>
-    </div><!--btn-->
-  </div><!--culture-->
-  </div><!--photos-->
-</section><!--contents-wrapper--->
-
-<section class="latest-topics" id="topics">
- <div class="latest-size">
-  <h2>LATEST TOPICS</h2>
-  <div class="topics">
-   <div class="topic">
-    <p class="date">2020.02.01</p>
-    <p class="news">イベントレポート「VRクリエイター座談会 〜5Gの次に来るもの〜」</p>
-   </div>
-   <div class="topic">
-    <p class="date">2020.01.18</p>
-    <p class="news">プレスリリースのお知らせ DIGGIN’ RECORDS</p>
-   </div>
-   <div class="topic">
-    <p class="date">2020.01.01</p>
-    <p class="news">新年開けましておめでとうございます</p>
-   </div>
-  </div><!--topics-->
-  <div class="btn topic-btn">
-    <a href="#" style="text-decoration:none;" class="link-btn">READ MORE</a>
-  </div><!--btn-->
- </div><!--latest-size-->
-</section><!--latest-topics-->
-
-<section class="contact-wrapper" id="contact">
-<div class="contact-size">
-  <div class="recruit-order">
-    <div class="recruit-img">
-      <img src="img/recruit-img.png">
-     </div>
-  
-   <div class="recruit">
-    <h2>CONTACT</h2>
-   <p>制作の依頼、取材の依頼、IRや採用についての連絡・お問い合わせはコンタクトページから承っております。<br>
-  まずはお気軽にご連絡ください。担当者から改めて返信いたします。</p>
-  </div><!--recruit-->
-</div>
-  <div class="contact-btn">
-    <a href="https://asknmt.github.io/first_link2/" style="text-decoration:none;" class="link-btn">READ MORE</a>
-  </div>
-</div><!--contact-size-->
-</section>
-
-<footer>
-  <p>©2018 DIGSMILE INC.</p>
-</footer>
+  </footer>
+</body>
 
 <!--jQueryの読み込み-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-<script src="nmt.js"></script>
-
-</body>
+<script src="port.js"></script>
 
 </html>
